@@ -7,7 +7,7 @@ RUN apk add --update \
   && rm -rf /var/cache/apk/*
 
 WORKDIR /data
-COPY /* /data
+COPY / /data
 
 EXPOSE 8000
 
